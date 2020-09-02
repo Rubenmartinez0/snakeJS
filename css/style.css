@@ -1,0 +1,15 @@
+#optionsMenu{
+	text-align: center;
+}
+
+#gameDiv{
+    text-align: center;
+}
+/*
+#snakeCanvas{
+    background-color: black;
+}
+*/
+#snakeCanvas{
+	/*border: 15px solid red;*/
+}

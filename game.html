@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Import custom css -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Bootsrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Import JQuery/AJAX -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+        <title>Snake game</title>
+    </head>
+    <body>
+        
+        <a href="/index">
+            <button class="btn btn-success">Return to portfolio</button>
+        </a>
+        <div class="row">
+            <div class="pull-left">
+                <h3>How to play</h3>
+                <a>- Use arrow keys or WASD to move with the snake</a><br>
+                <a>- Use <strong>+</strong> and <strong>-</strong> keys to increase and decrease snake's movement speed.</a><br>
+                <a>- User <strong>P</strong> to pause the game.</a><br>
+
+            </div>
+            <div id="gameDiv" class="pull-right">
+                <canvas id="snakeCanvas" width="600" height="600">
+                    <!-- Snake game is inserted here -->
+                </canvas>
+                <br><br>
+                <span>Score: 
+                    <b id="score">0</b>
+                </span>
+            </div>
+        </div>
+            
+       
+        <!-- Import Javascript file -->
+        <script type="text/javascript" src="js/snake.js"></script>
+
+        <!-- Call our game inside the elements with class "Games" -->
+        <script type="text/javascript">
+            
+
+
+        </script>
+
+
+
+    </body>
+</html>
+
+
+
